@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Du Lịch Hà Nội</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body style="background-image: unset; background-color: #1f415d;">
+    <div class="header">
+      <div class="nav-1">
+        <div class="nav-redirect">
+          <a href="index.html">TRANG CHỦ</a>
+          <a class="nav-redirect-main">LỊCH SỬ</a>
+          <div class="dropdown">
+            <a class="dropdown-menu"
+              >GỢI Ý ĐỊA ĐIỂM
+              <box-icon name="chevron-down" class="arrow"></box-icon
+            ></a>
+            <div class="dropdown-content">
+              <a href="bando.html">BẢN ĐỒ</a>
+              <a href="amthuc.html">ẨM THỰC</a>
+              <a href="tour.html">TOUR DU LỊCH</a>
+              <a href="trienlam.html">TRIỄN LÃM</a>
+            </div>
+          </div>
+          <a href="lienhe.html">LIÊN HỆ</a>
+        </div>
+        <div class="icons">
+          <box-icon
+            name="search-alt"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="search"
+          ></box-icon>
+          <box-icon
+            name="user-circle"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="user"
+          ></box-icon>
+          <box-icon
+            name="menu"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="menu"
+          ></box-icon>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-box" id="searchBar" autocomplete="off">
+          <box-icon
+          name="search"
+          color="#070f2a"
+          size="sm"
+          rotate="90"
+          class="search-box-icon"
+        ></box-icon>  
+        </input>
+        <ul class="search-result" id="resultsList">
+        </ul>
+      </div>
+      <div class="user-box">
+        <a href="dangnhap.html" class="login-text">Đăng Nhập</a>
+        <p class="middle-text">___Hoặc___</p>
+        <a href="dangky.html" class="register-text">Đăng Ký</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="head">
+        <div class="history-img">
+          <img src="images/lichsu.webp" alt="" class="lichsu-img">
+          <p class="text-in-lichsu-img">Giới thiệu tổng quan về Hà Nội</p>
+        </div>
+      </div>
+      <div class="body-lichsu1">
+        <div class="line-lichsu1">-</div>
+        <img src="images/lichsu1.webp" alt="" class="lichsu1-img1">
+        <img src="images/lichsu1-2.webp" alt="" class="lichsu1-img2">
+        <div class="line2-lichsu1">-</div>
+        <p class="lichsu1-description1">Hà Nội, <i>mảnh đất nghìn năm văn hiến, nơi lưu giữ những trang sử hào hùng của dân tộc</i>. Từ kinh đô của nhà Đinh, nhà Lý, nhà Trần đến vương quốc của nhà Lê, thành phố luôn tỏa sáng với vị thế quan trọng.</p>
+        <p class="lichsu1-description2">Vào năm <span style="font-family: Bogart2;">1010</span> vua Lý Thái Tổ đã chọn Cổ Loa làm kinh đô và đặt tên là Thăng Long, có nghĩa là Rồng bay lên. Từ đó, Thăng Long trở thành biểu tượng cho sự phồn thịnh và vươn lên của đất nước. Trải qua gần <span style="font-family: Bogart2;">1000</span> năm, Thăng Long đã có nhiều tên gọi khác nhau như Đông Đô, Đông Kinh, Bắc Thành…đến năm <span style="font-family: Bogart2;">1831</span> mới đổi tên là Hà Nội.</p>
+      </div>
+      <div class="body-lichsu2">
+        <div class="line-lichsu2">-</div>
+        <div class="lichsu2-img-box1">
+           <img src="images/lichsu2.webp" alt="" class="lichsu2-img1">
+           <p class="lichsu2-img-title"><i>Nhà tù Hoả Lò</i></p>
+        </div>
+        <div class="lichsu2-img-box2">
+          <img src="images/lichsu2-1.webp" alt="" class="lichsu2-img2">
+          <p class="lichsu2-img-title"><i>Chùa một cột</i></p>
+        </div>
+        <div class="lichsu2-img-box3">
+          <img src="images/lichsu2-2.webp" alt="" class="lichsu2-img3">
+          <p class="lichsu2-img-title">Lăng Bác</p>
+        </div>
+        <p class="lichsu2-description1">Hà Nội là chứng kiến bao biến cố lịch sử quan trọng như khởi nghĩa Lam Sơn, Cách mạng tháng Tám, Quốc khánh <span style="font-family: Bogart2;">2/9/1945</span>,... Thành phố lưu giữ nhiều di tích lịch sử nổi tiếng như Văn Miếu, Chùa Một Cột, Nhà tù Hỏa Lò, Lăng Bác.</p>
+      </div>
+      <div class="body-lichsu3">
+        <div class="line-lichsu3">-</div>
+        <p class="lichsu3-description1">Ngoài ra Hà Nội còn có những con phố nổi tiếng như Hàng Mã, Hàng Gai, Hàng Đào, đều là những địa điểm phản ánh đặc trưng văn hóa và cuộc sống của người dân. </p>
+        <img src="images/lichsu3.webp" alt="" class="lichsu3-img1">
+        <img src="images/object8.svg" alt="" class="lichsu3-object">
+        <img src="images/object8.svg" alt="" class="lichsu3-object2">
+      </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Du Lịch Hà Nội</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav-1">
+        <div class="nav-redirect">
+          <a href="index.html">TRANG CHỦ</a>
+          <a href="lichsu.html">LỊCH SỬ</a>
+          <div class="dropdown">
+            <a class="dropdown-menu nav-redirect-main" href="#"
+              >GỢI Ý ĐỊA ĐIỂM
+              <box-icon name="chevron-down" class="arrow"></box-icon
+            ></a>
+            <div class="dropdown-content">
+              <a href="#">BẢN ĐỒ</a>
+              <a href="amthuc.html">ẨM THỰC</a>
+              <a href="tour.html">TOUR DU LỊCH</a>
+              <a href="trienlam.html">TRIỄN LÃM</a>
+            </div>
+          </div>
+          <a href="lienhe.html">LIÊN HỆ</a>
+        </div>
+        <div class="icons">
+          <box-icon
+            name="search-alt"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="search"
+          ></box-icon>
+          <box-icon
+            name="user-circle"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="user"
+          ></box-icon>
+          <box-icon
+            name="menu"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="menu"
+          ></box-icon>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-box" id="searchBar" autocomplete="off">
+          <box-icon
+          name="search"
+          color="#070f2a"
+          size="sm"
+          rotate="90"
+          class="search-box-icon"
+        ></box-icon>  
+        </input>
+        <ul class="search-result" id="resultsList">
+        </ul>
+      </div>
+      <div class="user-box">
+        <a href="dangnhap.html" class="login-text">Đăng Nhập</a>
+        <p class="middle-text">___Hoặc___</p>
+        <a href="dangky.html" class="register-text">Đăng Ký</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59579.89643856889!2d105.80315607559962!3d21.042945717856693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1732031056130!5m2!1svi!2s"
+          width="1180"
+          height="600"
+          style="border: 10px solid #fff; border-radius: 10px"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="title-map">Hanoi's Map</div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="script.js"></script>
+</html>

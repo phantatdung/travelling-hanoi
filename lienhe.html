@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Du Lịch Hà Nội</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="nav-1">
+        <div class="nav-redirect">
+          <a href="index.html">TRANG CHỦ</a>
+          <a href="lichsu.html">LỊCH SỬ</a>
+          <div class="dropdown">
+            <a class="dropdown-menu"
+              >GỢI Ý ĐỊA ĐIỂM
+              <box-icon name="chevron-down" class="arrow"></box-icon
+            ></a>
+            <div class="dropdown-content">
+              <a href="bando.html">BẢN ĐỒ</a>
+              <a href="amthuc.html">ẨM THỰC</a>
+              <a href="tour.html">TOUR DU LỊCH</a>
+              <a href="trienlam.html">TRIỄN LÃM</a>
+            </div>
+          </div>
+          <a href="#" class="nav-redirect-main">LIÊN HỆ</a>
+        </div>
+        <div class="icons">
+          <box-icon
+            name="search-alt"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="search"
+          ></box-icon>
+          <box-icon
+            name="user-circle"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="user"
+          ></box-icon>
+          <box-icon
+            name="menu"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="menu"
+          ></box-icon>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-box" id="searchBar" autocomplete="off">
+          <box-icon
+          name="search"
+          color="#070f2a"
+          size="sm"
+          rotate="90"
+          class="search-box-icon"
+        ></box-icon>  
+        </input>
+        <ul class="search-result" id="resultsList">
+        </ul>
+      </div>
+      <div class="user-box">
+        <a href="dangnhap.html" class="login-text">Đăng Nhập</a>
+        <p class="middle-text">___Hoặc___</p>
+        <a href="dangky.html" class="register-text">Đăng Ký</a>
+      </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <div class="contact">
+                <p class="contact-title">Mọi thắc mắc vui lòng liên hệ:</p>
+                <p class="contact-title">Ardo House</p>
+                <div class="contact-info">
+                    <p class="phone"><b>SDT: </b>0379137750</p>
+                    <p class="address"><b>Địa chỉ: </b>123 Đường Phùng Hưng, Tam Phước Biên Hoà, Đồng Nai.</p>
+                    <p class="email"><b>Email: </b>phantatdung233@gmail.com</p>
+                    <p class="facebook"><b>Facebook: </b><a href="https://www.facebook.com/phantatdung">Phan Tất Dũng</a></p>
+                </div>
+                <p class="footer-text">Good bye</p>
+                <img src="images/object.png" alt="" srcset="" class="footer-img" width="180px">
+            </div>
+            <div class="contact-survey">
+                <p class="survey-title">Trải nghiệm website của bạn như thế nào?</p>
+                <div class="survey-box">
+                    <label class="radio">
+                        <input type="radio" name="rating" value="excellent">
+                        <span>Xuất Sắc</span>
+                        <img src="images/5star.webp" alt="" height="20px">
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="rating" value="normal">
+                        <span>Bình Thường</span>
+                        <img src="images/3star.webp" alt="" height="20px">
+                    </label>
+                    <div class="submit">
+                        <button id="submitBtn">Gửi đi</button>
+                        <p id="response" class="hidden"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="script.js"></script>
+</html>

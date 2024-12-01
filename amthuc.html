@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Du Lịch Hà Nội</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body style="background-image: unset; background-color: #171f02;">
+    <div class="header">
+      <div class="nav-1">
+        <div class="nav-redirect">
+          <a href="index.html">TRANG CHỦ</a>
+          <a href="lichsu.html">LỊCH SỬ</a>
+          <div class="dropdown">
+            <a class="dropdown-menu nav-redirect-main" href="#"
+              >GỢI Ý ĐỊA ĐIỂM
+              <box-icon name="chevron-down" class="arrow"></box-icon
+            ></a>
+            <div class="dropdown-content">
+              <a href="bando.html">BẢN ĐỒ</a>
+              <a href="#">ẨM THỰC</a>
+              <a href="tour.html">TOUR DU LỊCH</a>
+              <a href="trienlam.html">TRIỄN LÃM</a>
+            </div>
+          </div>
+          <a href="lienhe.html">LIÊN HỆ</a>
+        </div>
+        <div class="icons">
+          <box-icon
+            name="search-alt"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="search"
+          ></box-icon>
+          <box-icon
+            name="user-circle"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="user"
+          ></box-icon>
+          <box-icon
+            name="menu"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="menu"
+          ></box-icon>
+        </div>
+      </div>
+      <div class="nav-mobile"></div>
+      <div class="search-bar">
+        <input type="text" class="search-box" id="searchBar" autocomplete="off">
+          <box-icon
+          name="search"
+          color="#070f2a"
+          size="sm"
+          rotate="90"
+          class="search-box-icon"
+        ></box-icon>  
+        </input>
+        <ul class="search-result" id="resultsList">
+        </ul>
+      </div>
+      <div class="user-box">
+        <a href="dangnhap.html" class="login-text">Đăng Nhập</a>
+        <p class="middle-text">___Hoặc___</p>
+        <a href="dangky.html" class="register-text">Đăng Ký</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="head">
+        <div class="food-img">
+          <img src="images/amthuc1.webp" alt="" class="amthuc1-img">
+          <div class="object-and-text">
+            <img src="images/object4.png" alt="" class="object-img4">
+            <p class="text-in-amthuc-img">Ẩm Thực</p>
+          </div>
+        </div>
+      </div>
+      <div class="body-amthuc2">
+        <img src="images/object5.webp" alt="" class="object-img5" width="500px">
+        <img src="images/object5.webp" alt="" class="object-img5-2" width="500px">
+        <h1 class="amthuc2-title" id="phohanoi">Phở Hà Nội</h1>
+        <img src="images/object6.png" alt="" class="object-img6">
+        <img src="images/amthuc2.webp" alt="" class="amthuc2-img">
+        <img src="images/5star.webp" alt="" class="amthuc2-star">
+        <img src="images/first.webp" alt="" class="amthuc2-badge">
+        <img src="images/object7.png" alt="" class="amthuc2-object">
+        <p class="amthuc2-description">Phở là "linh hồn" của ẩm thực Việt Nam, đặc biệt tại Hà Nội. Tô phở nóng hổi với nước dùng trong veo, ngọt thanh từ xương hầm, ăn cùng bánh phở mềm, thịt bò tái hoặc gà, được thêm chút chanh, ớt, khiến thực khách nhớ mãi. Nổi tiếng có phở Thìn Lò Đúc hoặc phở Bát Đàn​</p>
+        <img src="images/amthuc2-2.webp" alt="" class="amthuc2-img2">
+      </div>
+      <div class="body-amthuc3">
+        <h1 class="amthuc3-title" id="bunchahanoi">Bún chả Hà Nội</h1>
+        <img src="images/5star.webp" alt="" srcset="" class="amthuc3-star">
+        <img src="images/second.webp" alt="" class="amthuc3-badge">
+        <img src="images/amthuc3.webp" alt="" class="amthuc3-img">
+        <img src="images/amthuc3-2.webp" alt="" class="amthuc3-img2">
+        <img src="images/object7.png" alt="" class="amthuc3-object">
+        <p class="amthuc3-description">Đây là món ăn quen thuộc với thịt heo nướng thơm lừng, ăn kèm bún trắng, rau sống và nước mắm chua ngọt. Bún chả Hàng Mành là địa chỉ nổi tiếng, từng được cựu Tổng thống Mỹ Barack Obama ghé thăm</p>
+      </div>
+      <div class="body-amthuc4">
+        <h1 class="amthuc4-title" id="bundau">Bún đậu mắm tôm</h1>
+        <img src="images/5star.webp" alt="" srcset="" class="amthuc4-star">
+        <img src="images/third.webp" alt="" class="amthuc4-badge">
+        <img src="images/amthuc4.webp" alt="" class="amthuc4-img">
+        <img src="images/amthuc4-2.webp" alt="" class="amthuc4-img2">
+        <img src="images/amthuc4-3.webp" alt="" class="amthuc4-img3">
+        <img src="images/object7.png" alt="" class="amthuc4-object">
+        <p class="amthuc4-description">Món ăn dân dã với đậu rán giòn, bún trắng, thịt chân giò luộc, chả cốm, và mắm tôm pha chanh ớt. Ngõ Hàng Khay và ngõ Phất Lộc là nơi hội tụ các quán bún đậu nổi tiếng</p>
+      </div>
+      <div class="body-amthuc5">
+        <h1 class="amthuc5-title" id="chehanoi">Chè Hà Nội</h1>
+        <img src="images/5star.webp" alt="" srcset="" class="amthuc5-star">
+        <img src="images/amthuc5.webp" alt="" class="amthuc5-img">
+        <img src="images/object7.png" alt="" class="amthuc5-object">
+        <p class="amthuc5-description">Hà Nội cũng là thiên đường của chè với đủ loại, từ chè đỗ xanh, đỗ đen, đến chè sen long nhãn. Những quán chè vỉa hè mang phong cách giản dị luôn thu hút đông đảo thực khách</p>
+      </div>
+      <div class="body-amthuc6">
+        <h1 class="amthuc6-title" id="banhcuonthanhtri">Bánh cuốn Thanh Trì</h1>
+        <img src="images/5star.webp" alt="" srcset="" class="amthuc6-star">
+        <img src="images/amthuc6.webp" alt="" class="amthuc6-img">
+        <img src="images/amthuc6-2.webp" alt="" class="amthuc6-img2">
+        <img src="images/object7.png" alt="" class="amthuc6-object">
+        <p class="amthuc6-description">Lớp bánh mỏng tang, trắng trong, được tráng khéo léo, cuộn nhân thịt và mộc nhĩ, ăn kèm nước chấm tỏi ớt cùng chả quế. Bánh cuốn Bà Hanh tại phố Lê Văn Hưu là lựa chọn lý tưởng</p>
+      </div>
+      <a href="#top" id="scroll-to-top-btn">
+        <span><box-icon name='chevrons-up' color='#ffffff' ></box-icon></span>
+      </a>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="script.js"></script>
+</html>

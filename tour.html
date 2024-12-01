@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Du Lịch Hà Nội</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body style="background-image: unset; background-color: #346173;">
+    <div class="header">
+      <div class="nav-1">
+        <div class="nav-redirect">
+          <a href="index.html">TRANG CHỦ</a>
+          <a href="lichsu.html">LỊCH SỬ</a>
+          <div class="dropdown">
+            <a class="dropdown-menu nav-redirect-main" 
+              >GỢI Ý ĐỊA ĐIỂM
+              <box-icon name="chevron-down" class="arrow"></box-icon
+            ></a>
+            <div class="dropdown-content">
+              <a href="bando.html">BẢN ĐỒ</a>
+              <a href="amthuc.html">ẨM THỰC</a>
+              <a>TOUR DU LỊCH</a>
+              <a href="trienlam.html">TRIỄN LÃM</a>
+            </div>
+          </div>
+          <a href="lienhe.html">LIÊN HỆ</a>
+        </div>
+        <div class="icons">
+          <box-icon
+            name="search-alt"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="search"
+          ></box-icon>
+          <box-icon
+            name="user-circle"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="user"
+          ></box-icon>
+          <box-icon
+            name="menu"
+            color="#070f2a"
+            size="md"
+            border="circle"
+            animation="tada-hover"
+            class="menu"
+          ></box-icon>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-box" id="searchBar" autocomplete="off">
+          <box-icon
+          name="search"
+          color="#070f2a"
+          size="sm"
+          rotate="90"
+          class="search-box-icon"
+        ></box-icon>  
+        </input>
+        <ul class="search-result" id="resultsList">
+        </ul>
+      </div>
+      <div class="user-box">
+        <a href="dangnhap.html" class="login-text">Đăng Nhập</a>
+        <p class="middle-text">___Hoặc___</p>
+        <a href="dangky.html" class="register-text">Đăng Ký</a>
+      </div>
+    </div>
+    <div class="container">
+        <div class="head">
+            <img class="tour-img" src="images/tour.jpg" alt="Bg">
+            <p class="text-in-tour-img">Tour du lịch<sup>Hà Nội</sup></p>
+            <img class="object-img" src="images/object.png" alt="">
+            <img class="object-img2" src="images/object2.png" alt="">
+        </div>
+        <div class="body-1">
+            <div class="box-title" id="hohoankiem">Hồ Hoàn Kiếm</div>
+            <div class="box-content">Điểm tham quan: <b>Đền Ngọc Sơn</b> và <b>Cầu Thê Húc</b>. Đây là nơi bắt đầu cho chuyến tham quan Hà Nội, với không gian yên bình, cảnh đẹp và nhiều câu chuyện lịch sử thú vị.</div>
+            <img class="object-img3" src="images/object3.png" alt="">
+            <div class="quote">Ăn sáng: Bạn có thể thưởng thức phở tại quán Phở Lý Quốc Sư (Đường Lý Quốc Sư) – một trong những quán phở nổi tiếng ở Hà Nội.
+            </div>
+            <div class="hashtag1">#Hồ Hoàn Kiếm</div>
+            <img class="box-image1" src="images/hohoankiem1.webp" alt="">
+            <div class="hashtag2">#Đền Ngọc Sơn</div>
+            <img src="images/hohoankiem2.webp" alt="" class="box-image2">
+            <div class="hashtag3">#Phở Lý Quốc Sư (Đường Lý Quốc Sư) </div>
+            <img src="images/hohoankiem3.webp" alt="" class="box-image3">
+            <div class="line">-</div>
+        </div>
+        <div class="body-2">
+          <div class="box-title" id="chuamotcot">Chùa Một Cột</div>
+          <div class="box-content">Điểm tham quan: Một trong những <b>ngôi chùa độc đáo</b> của Việt Nam, biểu tượng của Phật giáo và kiến trúc truyền thống.</div>
+          <img src="images/chuamotcot1.jpg" alt="" class="box-image1">
+          <div class="hashtag1">#Chùa Một Cột</div>
+          <img src="images/chuamotcot2.jpg" alt="" class="box-image2">
+          <div class="hashtag2">#Chùa Một Cột</div>
+          <img src="images/chuamotcot3.jpg" alt="" class="box-image3">
+          <div class="line">-</div>
+        </div>
+        <div class="body-3">
+          <div class="box-title" id="langchutich">Lăng Chủ tịch Hồ Chí Minh</div>
+          <div class="hashtag1">#Lăng Bác</div>
+          <img src="images/langbac1.jpg" alt="" class="box-image1">
+          <img src="images/langbac2.webp" alt="" class="box-image2">
+          <img src="images/langbac3.webp" alt="" class="box-image3">
+          <div class="hashtag2">#Lăng Bác</div>
+          <div class="box-content"> Điểm tham quan: Lăng Hồ Chí Minh, nơi yên nghỉ của Chủ tịch Hồ Chí Minh, là một trong những địa điểm lịch sử quan trọng. Gần đó là Bảo tàng Hồ Chí Minh và Chùa Một Cột.</div>
+          <img class="object-img3" src="images/object3.png" alt="">
+          <div class="quote"> Ăn trưa: Bánh cuốn tại quán Bánh Cuốn Gia An (Đường Xuân Diệu) hoặc Bánh cuốn Thanh Vân gần Hồ Hoàn Kiếm. Đây là món ăn nhẹ đặc sản của Hà Nội.</div>
+          <img src="images/langbac4.jpg" alt="" class="box-image4">
+          <div class="line">-</div>
+        </div>
+        <div class="body-4" id="phocohanoi">
+          <div class="box-title">Phố cổ Hà Nội</div>
+          <div class="hashtag1">#Phố cổ Hà Nội</div>
+          <img src="images/phoco1.jpg" alt="" class="box-image1">
+          <div class="box-content"> Điểm tham quan: Dạo quanh khu phố cổ với các ngôi nhà cổ kính, đặc biệt là các cửa hàng truyền thống với những món đồ lưu niệm độc đáo. Bạn có thể ghé thăm Hàng Mã, Hàng Đào, Hàng Bạc.</div>
+          <img src="images/phoco2.jpg" alt="" class="box-image2">
+          <img class="object-img3" src="images/object3.png" alt="">
+          <img src="images/phoco3.jpg" alt="" class="box-image3">
+          <div class="quote">Ăn tối: Chả cá Lã Vọng tại Chả Cá Lã Vọng (Đường Chả Cá), món ăn nổi tiếng của Hà Nội với cá lăng nướng ăn kèm bún, rau sống, đậu phộng.
+          </div>
+          <img src="images/phoco4.jpg" alt="" class="box-image4">
+          <div class="hashtag2">#Chả Cá Lá Vọng</div>
+        </div>
+    </div>
+    <a href="#top" id="scroll-to-top-btn">
+      <span><box-icon name='chevrons-up' color='#ffffff' ></box-icon></span>
+    </a>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <script src="script.js"></script>
+</html>
